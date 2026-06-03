@@ -1,5 +1,4 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
@@ -11,17 +10,17 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <div className="relative bg-gradient-to-bl from-black/60 to-[#0c0818e7] pb-8 pt-36">
       <Particle />
-      <Container>
-        <h1 className="project-heading">
+      <div className="mx-auto max-w-7xl px-4 md:px-8">
+        <h1 className="pt-2 text-center text-4xl font-medium text-white md:text-[2.3em]">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p className="mt-2 text-center text-white/90">
           Here are a few projects I've worked on recently.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        <div className="grid grid-cols-1 gap-6 py-10 md:grid-cols-2 lg:grid-cols-3">
+          <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -30,9 +29,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -41,20 +40,20 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
               title="Editor.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://editor.soumya-jit.tech/"
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,9 +62,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -74,22 +73,21 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </div>
 
-          <Col md={4} className="project-card">
+          <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
               title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backend. The classifier successfully predicted various human emotions and reached 60.1% accuracy. Then used OpenCV to detect faces in images and pass detected faces to the classifier for emotion prediction."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
-          </Col>
-        </Row>
-      </Container>
-    </Container>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 

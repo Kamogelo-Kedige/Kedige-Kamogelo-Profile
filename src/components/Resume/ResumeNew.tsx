@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Soumyajit_Behera.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
@@ -17,38 +15,38 @@ function ResumeNew() {
 
   return (
     <div>
-      <Container fluid className="resume-section">
+      <div className="relative bg-gradient-to-bl from-black/60 to-[#0c0818e7] px-4 pb-8 pt-28 text-white md:px-8">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
+        <div className="relative flex justify-center">
+          <a
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            rel="noreferrer"
+            className="inline-flex max-w-[250px] items-center rounded-md bg-[#623686] px-4 py-2 text-white transition-colors hover:bg-[#6d20c5d7]"
           >
             <AiOutlineDownload />
             &nbsp;Download CV
-          </Button>
-        </Row>
+          </a>
+        </div>
 
-        <Row className="resume">
+        <div className="flex justify-center py-12">
           <Document file={pdf} className="d-flex justify-content-center">
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
-        </Row>
+        </div>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
+        <div className="relative flex justify-center">
+          <a
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            rel="noreferrer"
+            className="inline-flex max-w-[250px] items-center rounded-md bg-[#623686] px-4 py-2 text-white transition-colors hover:bg-[#6d20c5d7]"
           >
             <AiOutlineDownload />
             &nbsp;Download CV
-          </Button>
-        </Row>
-      </Container>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
