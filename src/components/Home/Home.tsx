@@ -21,19 +21,19 @@ function Home() {
         <div className="mx-auto max-w-7xl px-4 pb-8 pt-28 text-left text-whitesmoke md:px-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-12">
             <div className="md:col-span-7 md:pt-12">
-              <h1 className="pb-4 pl-0 text-4xl md:pl-10 md:text-5xl">
-                Hi There!{" "}
+              <h1 className=" text-[#fafafa] pb-4 pl-0 text-4xl md:pl-10 md:text-5xl">
+                Hello there!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
-              <h1 className="pl-0 text-4xl md:pl-10 md:text-5xl">
-                I'M
-                <strong className="text-[#cd5ff8]"> SOUMYAJIT BEHERA</strong>
+              <h1 className=" text-[#fafafa] pl-0 text-4xl md:pl-10 md:text-5xl">
+                I'm
+                <strong className="text-[#1a659e]"> Kamogelo Kedige</strong>
               </h1>
 
-              <div className="p-6 pt-10 text-left md:p-12">
+              <div className="p-6 pt-10 text-left md:p-12 text-lg md:text-2xl lg:text-2xl">
                 <Type />
               </div>
             </div>
