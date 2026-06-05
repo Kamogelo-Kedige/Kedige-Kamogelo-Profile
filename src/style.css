@@ -286,17 +286,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #35a8ff;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #1a659e !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #1a659e !important;
 }
 
 @media (max-width: 767px) {
@@ -572,7 +572,10 @@ button:focus {
   transition: all 0.4s ease 0s !important;
   width: fit-content !important;
   cursor: pointer !important;
-  transition: outline-color 0.3s, outline-width 0.3s, transform 0.3s;
+  transition:
+    outline-color 0.3s,
+    outline-width 0.3s,
+    transform 0.3s;
   color: white;
 }
 
