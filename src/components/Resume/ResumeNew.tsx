@@ -22,7 +22,7 @@ function ResumeNew() {
             href={pdf}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex max-w-[250px] items-center rounded-md bg-[#623686] px-4 py-2 text-white transition-colors hover:bg-[#6d20c5d7]"
+            className="inline-flex max-w-[250px] items-center rounded-md bg-[#1a659e] px-4 py-2 text-white transition-colors hover:bg-[#6d20c5d7]"
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -40,7 +40,7 @@ function ResumeNew() {
             href={pdf}
             target="_blank"
             rel="noreferrer"
-            className="inline-flex max-w-[250px] items-center rounded-md bg-[#623686] px-4 py-2 text-white transition-colors hover:bg-[#6d20c5d7]"
+            className="inline-flex max-w-[250px] items-center rounded-md bg-[#1a659e] px-4 py-2 text-white transition-colors hover:bg-[#6d20c5d7]"
           >
             <AiOutlineDownload />
             &nbsp;Download CV
