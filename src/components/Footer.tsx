@@ -13,12 +13,10 @@ function Footer() {
     <div className="w-full bg-[rgb(10,4,22)] px-4 py-3 md:px-8">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-4 text-center md:grid-cols-3 md:items-center">
         <div>
-          <h3 className="my-2 text-base text-white">
-            Designed and Developed by Soumyajit Behera
-          </h3>
+          <h3 className="my-2 text-base text-white">By Kamogelo Kedige</h3>
         </div>
         <div>
-          <h3 className="my-2 text-base text-white">Copyright © {year} SB</h3>
+          <h3 className="my-2 text-base text-white">Copyright © {year} KK</h3>
         </div>
         <div>
           <ul className="my-2 flex items-center justify-center gap-6 p-0">

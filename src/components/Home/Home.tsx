@@ -52,9 +52,8 @@ function Home() {
 
       <div className="mx-auto max-w-7xl px-4 py-12 md:px-8 md:py-20">
         <div className="text-center text-white">
-          <h1>Find Me On</h1>
           <p>
-            Feel free to <span className="purple">connect </span>with me
+            <span className="text-[#1a659e] font-bold">Lets Connect </span>
           </p>
           <ul className="mt-4 flex items-center justify-center gap-4">
             <li>
@@ -62,7 +61,7 @@ function Home() {
                 href="https://github.com/soumyajit4419"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#700c86] transition-all hover:bg-[#68187a] hover:text-white"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#1a659e] transition-all hover:bg-[#19517c] hover:text-white"
               >
                 <AiFillGithub />
               </a>
@@ -72,7 +71,7 @@ function Home() {
                 href="https://twitter.com/Soumyajit4419"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#700c86] transition-all hover:bg-[#68187a] hover:text-white"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#1a659e] transition-all hover:bg-[#19517c] hover:text-white"
               >
                 <AiOutlineTwitter />
               </a>
@@ -82,7 +81,7 @@ function Home() {
                 href="https://www.linkedin.com/in/soumyajit4419/"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#700c86] transition-all hover:bg-[#68187a] hover:text-white"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#1a659e] transition-all hover:bg-[#19517c] hover:text-white"
               >
                 <FaLinkedinIn />
               </a>
@@ -92,7 +91,7 @@ function Home() {
                 href="https://www.instagram.com/soumyajit4419"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#700c86] transition-all hover:bg-[#68187a] hover:text-white"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#1a659e] transition-all hover:bg-[#19517c] hover:text-white"
               >
                 <AiFillInstagram />
               </a>
