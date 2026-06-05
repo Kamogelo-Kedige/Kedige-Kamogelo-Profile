@@ -46,20 +46,20 @@ function NavBar() {
             type="button"
           >
             <span
-              className={`block h-0.5 w-6 bg-violet-400 transition-transform duration-300 ${expand ? "translate-y-1.5 rotate-45" : ""}`}
+              className={`block h-0.5 w-6 bg-[#1a659e] transition-transform duration-300 ${expand ? "translate-y-1.5 rotate-45" : ""}`}
             ></span>
             <span
-              className={`block h-0.5 w-6 bg-violet-400 transition-opacity duration-300 ${expand ? "opacity-0" : "opacity-100"}`}
+              className={`block h-0.5 w-6 bg-[#1a659e] transition-opacity duration-300 ${expand ? "opacity-0" : "opacity-100"}`}
             ></span>
             <span
-              className={`block h-0.5 w-6 bg-violet-400 transition-transform duration-300 ${expand ? "-translate-y-1.5 -rotate-45" : ""}`}
+              className={`block h-0.5 w-6 bg-[#1a659e] transition-transform duration-300 ${expand ? "-translate-y-1.5 -rotate-45" : ""}`}
             ></span>
           </button>
 
           <ul className="hidden items-center gap-2 md:flex md:flex-row">
             <li>
               <Link
-                className="inline-flex items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-violet-500/20"
+                className="inline-flex items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-[#19517c]"
                 to="/"
                 onClick={() => updateExpanded(false)}
               >
@@ -68,7 +68,7 @@ function NavBar() {
             </li>
             <li>
               <Link
-                className="inline-flex items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-violet-500/20"
+                className="inline-flex items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-[#19517c]"
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
@@ -77,7 +77,7 @@ function NavBar() {
             </li>
             <li>
               <Link
-                className="inline-flex items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-violet-500/20"
+                className="inline-flex items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-[#19517c]"
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -89,7 +89,7 @@ function NavBar() {
             </li>
             <li>
               <Link
-                className="inline-flex items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-violet-500/20"
+                className="inline-flex items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-[#19517c]"
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
@@ -98,20 +98,10 @@ function NavBar() {
             </li>
             <li>
               <a
-                className="inline-flex items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-violet-500/20"
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://github.com/Kamogelo-Kedige/Portfolio-of-Kedige-Kamogelo"
                 target="_blank"
                 rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1 rounded-md bg-violet-500/30 px-3 py-2 text-white transition-all hover:-translate-y-0.5 hover:bg-violet-500/50"
+                className="inline-flex items-center gap-1 rounded-md bg-[#1a659e] px-3 py-2 text-white transition-all hover:-translate-y-0.5 hover:bg-[#19517c]"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />
                 <AiFillStar style={{ fontSize: "1.1em" }} />
@@ -124,7 +114,7 @@ function NavBar() {
           <ul className="space-y-2 pb-4 md:hidden">
             <li>
               <Link
-                className="inline-flex w-full items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-violet-500/20"
+                className="inline-flex w-full items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-[#19517c]"
                 to="/"
                 onClick={() => updateExpanded(false)}
               >
@@ -133,7 +123,7 @@ function NavBar() {
             </li>
             <li>
               <Link
-                className="inline-flex w-full items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-violet-500/20"
+                className="inline-flex w-full items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-[#19517c]"
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
@@ -142,7 +132,7 @@ function NavBar() {
             </li>
             <li>
               <Link
-                className="inline-flex w-full items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-violet-500/20"
+                className="inline-flex w-full items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-[#19517c]"
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
@@ -154,7 +144,7 @@ function NavBar() {
             </li>
             <li>
               <Link
-                className="inline-flex w-full items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-violet-500/20"
+                className="inline-flex w-full items-center gap-1 rounded px-3 py-2 text-white transition-colors hover:bg-[#19517c]"
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
