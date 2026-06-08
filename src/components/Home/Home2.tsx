@@ -1,12 +1,16 @@
 import React from "react";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar1.jpeg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
     <div className="relative py-16" id="about">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 md:grid-cols-12 md:px-8">
-        <div className="text-center text-white md:col-span-8 md:pt-16">
+      <div
+        className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 md:grid-cols-12 md:px-8 border-[#1a659e] 
+                rounded-2xl 
+                shadow-[0_0_20px_rgba(59,130,246,0.7)]"
+      >
+        <div className="text-center text-white p-6 md:col-span-8 md:pt-16">
           <h1 className="text-4xl md:text-[2.6em]">
             LET ME{" "}
             <span className="text-[#1a659e] font-bold tracking-wide animate-pulse">
@@ -16,38 +20,27 @@ function Home2() {
             MYSELF
           </h1>
           <p className="pt-10 text-left text-[1.2em] leading-relaxed md:text-[1.5em]">
-            I’m a Software Engineer driven by curiosity and a love for turning
-            bold ideas into reliable and practical software solutions.
+            I'm a Software Engineer who's passionate about building reliable,
+            scalable, and user-focused software.
             <br />
             <br />
-            My jounery has taken me through
+            Experienced with
             <b className="text-[#1a659e]">
               {" "}
-              Java, C#, JavaScript, TypeScript and SQL{" "}
+              Java, Spring Boot, C#, ASP.NET, React, TypeScript, JavaScript, and
+              SQL{" "}
             </b>
-            each shaping how I build systems and intuitive user experiences and
-            deepening my understanding of software development.
-            <br />
-            <br />I started out building with{" "}
-            <b className="text-[#1a659e]">ASP.NET</b> and the classic trio of
-            <b className="text-[#1a659e]"> HTML</b>,{" "}
-            <b className="text-[#1a659e]">CSS</b>, and
-            <b className="text-[#1a659e]"> JavaScript</b>. Those early days
-            taught me the foundations of web development and gave me a deep
-            respect for simplicity.
-            <br />
-            <br />
-            Over time, I discovered new tools that matched my curiosity and
-            ambition. Now, whenever possible, I love building projects with my
-            new favourite stack:
-            <b className="text-[#1a659e]"> Spring Boot</b> on the backend and
-            modern frameworks like
-            <b className="text-[#1a659e]"> React.js</b>
+            I enjoy developing full-stack applications, designing backend
+            systems, and turning ideas into practical products.
           </p>
         </div>
         <div className="flex justify-center py-4 md:col-span-4 md:pt-24">
           <Tilt>
-            <img src={myImg} className="h-auto w-full max-w-sm" alt="avatar" />
+            <img
+              src={myImg}
+              className="h-auto w-full max-w-sm rounded-full"
+              alt="Kamogelo Kedige"
+            />
           </Tilt>
         </div>
       </div>
