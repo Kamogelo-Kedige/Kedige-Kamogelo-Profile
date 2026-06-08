@@ -16,7 +16,7 @@ function About() {
           <div className="grid grid-cols-1 gap-6 px-2 md:grid-cols-12 md:px-3">
             <div className="flex flex-col justify-center py-8 md:col-span-7 md:py-12">
               <h1 className="pb-5 text-4xl md:text-[2.1em]">
-                Know Who <strong className="purple">I'M</strong>
+                Know who <strong className="purple">I am</strong>
               </h1>
               <Aboutcard />
             </div>
