@@ -7,8 +7,19 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineFacebook,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaJava, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaChevronDown } from "react-icons/fa";
+import {
+  SiCsharp,
+  SiJavascript,
+  SiMysql,
+  SiPostgresql,
+  SiSpringboot,
+  SiTiktok,
+  SiTypescript,
+} from "react-icons/si";
 
 function Home() {
   return (
@@ -36,6 +47,27 @@ function Home() {
               <div className="p-6 pt-10 text-left md:p-12 text-lg md:text-2xl lg:text-2xl">
                 <Type />
               </div>
+              <div className="mx-auto max-w-7xl px-4 py-12 md:px-8 md:py-20">
+                <div className="text-left text-white">
+                  <ul className="mr-60 mt-4 flex items-center justify-center gap-10 sm:gap-6 md:gap-20 md:mr-0 md:justify-start">
+                    <li className="inline-flex items-center justify-center rounded-full transition-all">
+                      <FaJava className="text-4xl sm:text-2xl md:text-5xl" />
+                    </li>
+                    <li className="inline-flex items-center justify-center rounded-full transition-all">
+                      <SiCsharp className="text-4xl sm:text-2xl md:text-5xl" />
+                    </li>
+                    <li className="inline-flex items-center justify-center rounded-full transition-all">
+                      <FaReact className="text-4xl sm:text-2xl md:text-5xl" />
+                    </li>
+                    <li className="inline-flex items-center justify-center rounded-full transition-all">
+                      <SiSpringboot className="text-4xl sm:text-2xl md:text-5xl" />
+                    </li>
+                    <li className="inline-flex items-center justify-center rounded-full transition-all">
+                      <SiPostgresql className="text-4xl sm:text-2xl md:text-5xl" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
 
             <div className="pb-5 md:col-span-5">
@@ -47,53 +79,61 @@ function Home() {
             </div>
           </div>
         </div>
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 animate-bounce ">
+          <a
+            href="#about"
+            aria-label="Scroll to About section"
+            className="absolute bottom-8 left-1/2 -translate-x-1/2"
+          >
+            <div className="flex h-12 w-7 justify-center rounded-full border-2 border-white/70">
+              <div className="mt-2 h-2 w-2 animate-bounce rounded-full bg-white"></div>
+            </div>
+          </a>
+        </div>
       </div>
       <Home2 />
 
       <div className="mx-auto max-w-7xl px-4 py-12 md:px-8 md:py-20">
         <div className="text-center text-white">
-          <p>
-            <span className="text-[#1a659e] font-bold">Lets Connect </span>
-          </p>
-          <ul className="mt-4 flex items-center justify-center gap-4">
+          <ul className="mt-4 flex flex-wrap items-center justify-center gap-10 sm:gap-6 md:gap-20">
             <li>
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/yourprofile"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#1a659e] transition-all hover:bg-[#19517c] hover:text-white"
+                className="inline-flex cursor-pointer items-center justify-center rounded-full transition-transform hover:scale-110"
               >
-                <AiFillGithub />
+                <AiFillGithub className="text-3xl sm:text-2xl md:text-5xl" />
               </a>
             </li>
             <li>
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://twitter.com/yourprofile"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#1a659e] transition-all hover:bg-[#19517c] hover:text-white"
+                className="inline-flex cursor-pointer items-center justify-center rounded-full transition-transform hover:scale-110 "
               >
-                <AiOutlineTwitter />
+                <AiOutlineFacebook className="text-3xl sm:text-2xl md:text-5xl" />
               </a>
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://linkedin.com/in/yourprofile"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#1a659e] transition-all hover:bg-[#19517c] hover:text-white"
+                className="inline-flex cursor-pointer items-center justify-center rounded-full transition-transform hover:scale-110"
               >
-                <FaLinkedinIn />
+                <FaLinkedinIn className="text-3xl sm:text-2xl md:text-5xl" />
               </a>
             </li>
             <li>
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://instagram.com/yourprofile"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#1a659e] transition-all hover:bg-[#19517c] hover:text-white"
+                className="inline-flex cursor-pointer items-center justify-center rounded-full transition-transform hover:scale-110"
               >
-                <AiFillInstagram />
+                <SiTiktok className="text-3xl sm:text-2xl md:text-5xl" />
               </a>
             </li>
           </ul>

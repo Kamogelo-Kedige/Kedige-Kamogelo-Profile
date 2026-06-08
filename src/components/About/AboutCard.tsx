@@ -6,11 +6,9 @@ function AboutCard() {
     <div className="quote-card-view rounded-lg border border-white/10 p-6 text-left">
       <blockquote className="blockquote mb-0">
         <p style={{ textAlign: "justify" }}>
-          Hi everyone! I’m <span className="purple">Soumyajit Behera</span> from{" "}
-          <span className="purple">Bhubaneswar, India</span>.
-          <br />
-          I’m currently working as a{" "}
-          <span className="purple">Software Developer</span> at{" "}
+          Hi everyone! I’m <span className="purple"></span> from{" "}
+          <span className="purple"></span>.
+          <br /> <span className="purple">Software Developer</span> at{" "}
           <span className="purple">Juspay</span>.
           <br />I hold an Integrated M.Sc. (IMSc) in{" "}
           <span className="purple">Mathematics and Computing</span> from{" "}
