@@ -21,7 +21,6 @@ function Projects() {
           <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={chatify}
-              isBlog={false}
               title="MzansiBuilds"
               description="MzansiBuilds is a developer collaboration platform where users can create accounts, build and manage projects, add milestones, comment on work, and request collaborations. It also includes a live activity feed and a celebration wall for completed projects. Built using Supabase Auth and PostgreSQL with Row Level Security"
               ghLink="https://github.com/Kamogelo-Kedige/MzansiBuilds"
@@ -32,7 +31,6 @@ function Projects() {
           <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={bitsOfCode}
-              isBlog={false}
               title="Bits-0f-C0de"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
@@ -43,7 +41,6 @@ function Projects() {
           <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={editor}
-              isBlog={false}
               title="Editor.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               ghLink="https://github.com/soumyajit4419/Editor.io"
@@ -54,7 +51,6 @@ function Projects() {
           <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={leaf}
-              isBlog={false}
               title="Plant AI"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
@@ -65,7 +61,6 @@ function Projects() {
           <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={suicide}
-              isBlog={false}
               title="Ai For Social Good"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
@@ -76,7 +71,6 @@ function Projects() {
           <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={emotion}
-              isBlog={false}
               title="Face Recognition and Emotion Detection"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backend. The classifier successfully predicted various human emotions and reached 60.1% accuracy. Then used OpenCV to detect faces in images and pass detected faces to the classifier for emotion prediction."
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
