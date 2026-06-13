@@ -24,7 +24,7 @@ function Projects() {
               isBlog={false}
               title="MzansiBuilds"
               description="MzansiBuilds is a developer collaboration platform where users can create accounts, build and manage projects, add milestones, comment on work, and request collaborations. It also includes a live activity feed and a celebration wall for completed projects. Built using Supabase Auth and PostgreSQL with Row Level Security"
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/Kamogelo-Kedige/MzansiBuilds"
               demoLink="https://chatify-49.web.app/"
             />
           </div>
