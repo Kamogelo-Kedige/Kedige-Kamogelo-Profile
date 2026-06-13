@@ -23,6 +23,8 @@ import MUI from "../../Assets/TechIcons/MUI.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import AWS from "../../Assets/TechIcons/AWS.svg";
 import Kafka from "../../Assets/TechIcons/Kafka.svg";
+import vsCode from "../../Assets/TechIcons/vscode.svg";
+import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
 
 type TechItem = {
   icon: React.ReactNode;
@@ -34,34 +36,19 @@ function Techstack() {
     { icon: <img src={C} alt="C++" />, label: "C++" },
     { icon: <img src={Javascript} alt="javascript" />, label: "Javascript" },
     { icon: <img src={Typescript} alt="typescript" />, label: "Typescript" },
-    { icon: <img src={Go} alt="go" />, label: "Go" },
-    { icon: <img src={Node} alt="node" />, label: "Node.Js" },
     { icon: <img src={ReactIcon} alt="react" />, label: "React.Js" },
-    { icon: <SiSolidity fontSize={"24px"} />, label: "Solidity" },
-    { icon: <img src={Mongo} alt="mongoDb" />, label: "Mongo DB" },
-    { icon: <img src={Redux} alt="redux" />, label: "Redux" },
-    { icon: <SiNextdotjs fontSize={"24px"} />, label: "Next.js" },
     { icon: <img src={Git} alt="git" />, label: "Git" },
-    { icon: <img src={Firebase} alt="firebase" />, label: "Firebase" },
+    { icon: <img src={Firebase} alt="Supabase" />, label: "Supabase" },
     { icon: <img src={Redis} alt="redis" />, label: "Redis" },
     { icon: <img src={Docker} alt="docker" />, label: "Docker" },
-    { icon: <img src={Kubernates} alt="kubernetes" />, label: "Kubernetes" },
     { icon: <img src={SQL} alt="SQL" />, label: "Postgresql" },
-    { icon: <img src={Python} alt="Python" />, label: "Python" },
     { icon: <img src={Java} alt="java" />, label: "Java" },
-    { icon: <img src={HaskellIcon} alt="haskell" />, label: "Haskell" },
+
     { icon: <img src={Tailwind} alt="tailwind" />, label: "Tailwind CSS" },
     { icon: <img src={MUI} alt="mui" />, label: "Material UI" },
     { icon: <img src={Postman} alt="Postman" />, label: "Postman" },
-    { icon: <FaRust fontSize={"24px"} />, label: "Rust" },
-    {
-      icon: <img src={AWS} alt="AWS" className="tech-icon-images" />,
-      label: "AWS",
-    },
-    {
-      icon: <img src={Kafka} alt="Kafka" className="tech-icon-images" />,
-      label: "Kafka",
-    },
+    { icon: <img src={vsCode} alt="vsCode" />, label: "Vs Code" },
+    { icon: <img src={intelliJ} alt="intelliJ" />, label: "IntelliJ" },
   ];
 
   return (
