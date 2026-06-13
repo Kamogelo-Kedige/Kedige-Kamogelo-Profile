@@ -14,18 +14,16 @@ function Projects() {
       <Particle />
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <h1 className="pt-2 text-center text-4xl font-medium text-white md:text-[2.3em]">
-          My Recent <strong className="purple">Works </strong>
+          Projects Ive<strong className="purple"> Worked on </strong>
         </h1>
-        <p className="mt-2 text-center text-white/90">
-          Here are a few projects I've worked on recently.
-        </p>
+
         <div className="grid grid-cols-1 gap-6 py-10 md:grid-cols-2 lg:grid-cols-3">
           <div className="px-2 py-2 md:px-3 md:py-3">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="MzansiBuilds"
+              description="MzansiBuilds is a developer collaboration platform where users can create accounts, build and manage projects, add milestones, comment on work, and request collaborations. It also includes a live activity feed and a celebration wall for completed projects. Built using Supabase Auth and PostgreSQL with Row Level Security"
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
