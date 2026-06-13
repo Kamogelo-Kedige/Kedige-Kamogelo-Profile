@@ -4,7 +4,6 @@ import { BsGithub } from "react-icons/bs";
 
 type ProjectCardProps = {
   imgPath: string;
-  isBlog: boolean;
   title: string;
   description: string;
   ghLink: string;
