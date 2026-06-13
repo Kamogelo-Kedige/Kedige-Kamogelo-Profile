@@ -56,7 +56,7 @@ function Techstack() {
       {techItems.map((item) => (
         <div
           key={item.label}
-          className="flex items-center justify-center gap-3 rounded-2xl border border-fuchsia-300/60 px-5 py-3 text-white shadow-[4px_5px_4px_3px_rgba(89,4,168,0.137)] transition-all hover:scale-105 hover:border-fuchsia-300"
+          className="flex items-center justify-center gap-3 rounded-2xl border border-[#1a659e]  px-5 py-3 text-white shadow-[4px_5px_4px_3px_rgba(89,4,168,0.137)] transition-all hover:scale-105 hover:border-fuchsia-300"
         >
           <span className="flex h-6 w-6 items-center justify-center">
             {item.icon}
