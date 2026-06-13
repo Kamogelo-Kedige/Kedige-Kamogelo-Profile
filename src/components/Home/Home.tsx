@@ -98,7 +98,7 @@ function Home() {
           <ul className="mt-4 flex flex-wrap items-center justify-center gap-10 sm:gap-6 md:gap-20">
             <li>
               <a
-                href="https://github.com/yourprofile"
+                href="https://github.com/Kamogelo-Kedige"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex cursor-pointer items-center justify-center rounded-full transition-transform hover:scale-110"
@@ -108,7 +108,7 @@ function Home() {
             </li>
             <li>
               <a
-                href="https://twitter.com/yourprofile"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex cursor-pointer items-center justify-center rounded-full transition-transform hover:scale-110 "
@@ -118,7 +118,7 @@ function Home() {
             </li>
             <li>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/kamogelo-kedige-bb2841389"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex cursor-pointer items-center justify-center rounded-full transition-transform hover:scale-110"
@@ -128,7 +128,7 @@ function Home() {
             </li>
             <li>
               <a
-                href="https://instagram.com/yourprofile"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex cursor-pointer items-center justify-center rounded-full transition-transform hover:scale-110"
