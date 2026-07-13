@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Profile Of Kedige Kamogelo.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
+const pdfPreviewUrl = `${pdf}#toolbar=0&navpanes=0&scrollbar=0`;
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -30,9 +29,19 @@ function ResumeNew() {
         </div>
 
         <div className="flex justify-center py-12">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
+          <div className="w-full max-w-5xl rounded-2xl border border-white/10 bg-white/5 p-3 shadow-2xl shadow-black/30 backdrop-blur-sm md:p-6">
+            <div className="mb-4 flex items-center justify-between px-2 text-sm text-white/70">
+              <span>Resume preview</span>
+              <span>Page 1</span>
+            </div>
+            <div className="flex justify-center overflow-hidden rounded-xl bg-white">
+              <iframe
+                title="Resume PDF preview"
+                src={pdfPreviewUrl}
+                className="h-[100vh] w-full"
+              />
+            </div>
+          </div>
         </div>
 
         <div className="relative flex justify-center">
