@@ -24,14 +24,14 @@ function ProjectCards(props: ProjectCardProps) {
           className="mt-4 inline-flex items-center gap-2 rounded-md bg-[#1a659e] px-4 py-2 text-white transition-colors hover:bg-[#398ecf]"
         >
           <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          {"GitHub"}
         </a>
         {"\n"}
         {"\n"}
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
-        {!props.isBlog && props.demoLink && (
+        {props.demoLink && (
           <a
             href={props.demoLink}
             target="_blank"
