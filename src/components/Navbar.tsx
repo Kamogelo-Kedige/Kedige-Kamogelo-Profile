@@ -96,17 +96,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Link>
             </li>
-            <li>
-              <a
-                href="https://github.com/Kamogelo-Kedige/Portfolio-of-Kedige-Kamogelo"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1 rounded-md bg-[#1a659e] px-3 py-2 text-white transition-all hover:-translate-y-0.5 hover:bg-[#19517c]"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </a>
-            </li>
           </ul>
         </div>
 
